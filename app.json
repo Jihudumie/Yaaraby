@@ -103,7 +103,7 @@
       "value": "CAADBQADNwEAAjZzSxRZAc49mnFSSAI"
     }
   },
-
+  },
   "addons": [
   ],
   "buildpacks": [{
@@ -113,13 +113,10 @@
   }, {
     "url": "heroku/python"
   }],
-      "plan": "heroku-postgresql",
-      "options": {
-      "version": "9.5"
-      "formation": {
-      "worker": {
+  "formation": {
+    "worker": {
       "quantity": 1,
       "size": "free"
     }
-  ]
+  }
 }
