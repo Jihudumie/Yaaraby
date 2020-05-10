@@ -1,6 +1,5 @@
 {
   "name": "Mpakiaji ",
-
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!. best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now",
   "keywords": [
     "telegram",
@@ -18,7 +17,6 @@
     "remote",
     "uploader"
      ],
-
     "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/TGExplore/TG_URL_Uploader",
   "repository": "https://github.com/TGExplore/TG_URL_Uploader",
