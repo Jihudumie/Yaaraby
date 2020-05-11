@@ -1,13 +1,9 @@
-
 {
-  "name": "Yaaraby",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "Mpakiaji ",
+  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
     "best",
-    "group",
-    "manager",
-    "3",
     "youtube",
     "downloader",
     "open",
@@ -18,67 +14,17 @@
     "remote",
     "uploader"
   ],
-  "repository": "hhttps://github.com/TGExplore/Marie_Chechi2.0",
+  "success_url": "https://telegram.dog/AnyDLBot",
+  "website": "https://github.com/TGExplore/TG_URL_Uploader",
+  "repository": "https://github.com/TGExplore/TG_URL_Uploader",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "TOKEN": {
+    "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
-    },
-    "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "592800547"
-    },
-    "OWNER_USERNAME": {
-      "description": "Your username",
-      "value": "kizazi"
-    },
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
-      "value": "ANYTHING"
-    },
-    "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": "https://.herokuapp.com/"
-    },
-    "MESSAGE_DUMP": {
-      "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1007777777777"
-    },
-    "SUDO_USERS": {
-      "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 683538773 570400686 466337795"
-    },
-    "SUPPORT_USERS": {
-      "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 683538773 570400686 466337795"
-    },
-    "WHITELIST_USERS": {
-      "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 683538773 570400686 466337795"
-    },
-    "DONATION_LINK": {
-      "description": "Optional: link where you would like to receive donations.",
-      "value": "http://t.me/Khamis_sBot"
-    },
-    "PORT": {
-      "description": "Port to use for your webhooks",
-      "value": "8443"
-    },
-    "DEL_CMDS": {
-      "description": "Whether to delete commands from users which don't have rights to use that command",
-      "value": "True"
-    },
-    "STRICT_GBAN": {
-      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-      "value": "True"
-    },
-    "ALLOW_EXCL": {
-      "description": "Whether to allow using exclamation marks ! for commands as well as /.",
-      "value": "True"
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
@@ -91,6 +37,10 @@
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": "9ba06dca185001e1ef647efb0c4925e4"
+    },
+    "AUTH_USERS": {
+      "description": "allow only pre-defined users to use this bot",
+      "value": "592800547"
     },
     "DEF_THUMB_NAIL_VID_S": {
       "description": "default thumbnail to be used in the videos. Incase, youtube-dl is unable to find a thumbnail.",
@@ -106,10 +56,6 @@
       "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
       "value": "",
       "required": false
-  },
-    "BAN_STICKER": {
-      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADNwEAAjZzSxRZAc49mnFSSAI"
     }
   },
   "addons": [
@@ -124,12 +70,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free",
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.5"
-      }
+      "size": "free"
     }
-   }
-  ]
+  }
 }
